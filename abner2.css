@@ -1,4 +1,41 @@
 header {
-    background-image: url(./images_logo/quackit.png);
     background: orange linear-gradient(orange,#ff8c00);
+}
+
+header img {
+    margin: 20px;
+}
+
+#threeline {
+    color: #fff;
+    background: 0 0;
+    border: 0;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+#head {
+    font-family: system-ui;
+    font-size: 30px;
+    color: white;
+}
+
+span span:hover {
+    background: rgb(255, 255, 255);
+    color: orange;
+}
+
+span span {
+    padding: 40px;
+    padding-
+}
+#separate {
+   /* display: flex;
+    justify-content: space-between;*/
+}
+
+#separate2 {
+    display: flex;
+    justify-content: space-between;
+    float: right;
 }
