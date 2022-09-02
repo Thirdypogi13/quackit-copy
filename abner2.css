@@ -1,5 +1,5 @@
 header {
-    background: orange linear-gradient(orange,#ff8c00);
+    background: blue linear-gradient(rgb(91, 52, 174),#13035c);
 }
 
 header img {
@@ -18,24 +18,47 @@ header img {
     font-family: system-ui;
     font-size: 30px;
     color: white;
+    position: relative;
+    top: 35px;
 }
 
 span span:hover {
     background: rgb(255, 255, 255);
-    color: orange;
+    color: rgb(91, 52, 174);
+}
+
+span span:active {
+    background: rgb(91, 52, 174);
+    color: rgb(255, 255, 255);
 }
 
 span span {
-    padding: 40px;
-    padding-
+    padding: 5px;
+    margin: 40px;
+    
 }
 #separate {
-   /* display: flex;
-    justify-content: space-between;*/
+    display: flex;
+    justify-content: space-between;
 }
 
 #separate2 {
     display: flex;
     justify-content: space-between;
     float: right;
+}
+
+span a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#box1 {
+    border: 1px  solid black;
+    padding: 100%;
 }
