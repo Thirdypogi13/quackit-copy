@@ -18,8 +18,7 @@ header img {
     font-family: system-ui;
     font-size: 30px;
     color: white;
-    position: relative;
-    top: 35px;
+    
 }
 
 span span:hover {
@@ -55,10 +54,30 @@ span a {
 
 h1 {
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Google Sans", "Roboto","Google Sans",Arial,sans-serif;;
+    color: white;
 }
 
 #box1 {
-    border: 1px  solid black;
-    padding: 100%;
+    border: 2px  solid rgb(91, 52, 174);
+    border-radius: 20px;
+    background: blue linear-gradient(#13035c,#010004) ;
+}
+
+#paragraph {
+    font-family: Lato,"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    margin: 15px;
+}
+
+#home_image {
+    position: relative;
+    top: 30px;
+}
+
+#home_image:hover {
+    background-color: white;
 }
