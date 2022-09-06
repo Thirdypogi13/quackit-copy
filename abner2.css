@@ -106,8 +106,16 @@ h1 {
     border-top: 10px white solid;
     border-left: 60px white solid;
     border-right: 60px white solid;
+    color: purple;
 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.borderspace0 {
+    border-top: 10px white solid;
+    border-left: 30px white solid;
+    border-right: 30px white solid;
+
 }
 
 footer {
