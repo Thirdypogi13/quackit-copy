@@ -81,3 +81,51 @@ h1 {
 #home_image:hover {
     background-color: white;
 }
+
+#box3_image {
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+}
+
+#circle_img img {
+    width: 60px;
+}
+
+#circle_img {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.floatcenter {
+    display: flex;
+    justify-content: center;
+}
+
+.borderspace {
+    border-top: 10px white solid;
+    border-left: 60px white solid;
+    border-right: 60px white solid;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer {
+    background: blue linear-gradient(rgb(91, 52, 174),#13035c);
+    padding: 50px;
+    color: white;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#footer {
+    text-align: center;
+    font-family: cursive;
+    font-size: 15px;
+}
