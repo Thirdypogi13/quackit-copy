@@ -137,3 +137,37 @@ p {
     font-family: cursive;
     font-size: 15px;
 }
+
+.flex_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex-row2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.center_img {
+    float: right;
+}
+
+table, th, td {
+    padding: 18px;
+    color: rgb(71, 0, 71);
+}
+
+th {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+}
+
+td {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+}
