@@ -1,3 +1,7 @@
+body {
+    margin: revert;
+}
+
 header {
     background: blue linear-gradient(rgb(91, 52, 174),#13035c);
 }
@@ -18,7 +22,8 @@ header img {
     font-family: system-ui;
     font-size: 30px;
     color: white;
-    
+    display: flex;
+    align-items:center;
 }
 
 span span:hover {
@@ -73,10 +78,10 @@ h1 {
     margin: 15px;
 }
 
-#home_image {
+/* #home_image {
     position: relative;
     top: 30px;
-}
+} */
 
 #home_image:hover {
     background-color: white;
@@ -173,7 +178,7 @@ td {
     font-style: normal;
 }
 
-nav {
+.nav {
     float: left;
     max-width: 160px;
     margin: 0;
