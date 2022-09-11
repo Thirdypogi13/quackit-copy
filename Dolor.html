@@ -4,22 +4,43 @@
         <title>
             Quackit
         </title>
-        <link rel="stylesheet" href="./abner2.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <link rel="stylesheet" href="./abner2.css" />
+        <link rel="stylesheet" href="./bootstrap_override.css" />
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
-                <div id="separate">
-                    <span>
-                        <a href="abner2.html"><img src="./picture/abner.png" width="70%" /></a>
-                    </span>
-                    <span id="head">
-                            <a href="abner2.html"><img src="./picture/home.png" id="home_image"/></a>
-                            <a href="Lorem.html"><span>Lorem</span></a>
-                            <a href="Ipsum.html"><span>Ipsum</span></a>
-                            <a href="Dolor.html"><span style="background: rgb(188, 166, 255); color: rgb(56, 11, 152);">Dolor</span></a>
-                            <a href="Sit.html"><span>Sit</span></a>
-                    </span>
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid" id="separate">
+                
+                    <a href="abner2.html"><img src="./picture/abner.png" width="70%" /></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="abner2.html"><img src="./picture/home.png" id="home_image"/></a>
+                                </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="Lorem.html">Lorem</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Ipsum.html">Ipsum</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Dolor.html">Dolor</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Sit.html">Sit</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
+            </nav>
         </header>
         <div></div>
         

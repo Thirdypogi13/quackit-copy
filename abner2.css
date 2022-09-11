@@ -26,24 +26,24 @@ header img {
     align-items:center;
 }
 
-span span:hover {
+/* li a:hover {
     background: rgb(255, 255, 255);
     color: rgb(91, 52, 174);
-}
+} */
 
-span span:active {
+/* li a:active {
     background: rgb(91, 52, 174);
-    color: rgb(255, 255, 255);
-}
+    color: rgb(255, 255, 255); */
+
 
 span span {
     padding: 5px;
     margin: 40px;
     
 }
-#separate {
+/* #separate {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; */
 }
 
 #separate2 {
@@ -185,9 +185,9 @@ td {
     padding: 1em;
 }
 
-article {
+ article {
     border-left: 1px solid gray;
-    overflow: hidden;
+    overflow: hidden; 
 }
 
 li {
@@ -208,8 +208,8 @@ li {
     color: white;
 }
 
-iframe {
-    height: 100%;
+.iframe {
+    height: 500px;
     width: 100%;
     border: none;
 }
