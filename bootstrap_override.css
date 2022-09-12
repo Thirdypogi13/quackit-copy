@@ -38,3 +38,15 @@ nav {
     }
 }
 
+.w-100 {
+    width: 100%!important;
+}
+
+
+.carousel-control-prev-icon {
+    background-image: url(./picture/previous.jpg);
+}
+
+.carousel-control-next-icon {
+    background-image: url(./picture/next.jpg);
+}
