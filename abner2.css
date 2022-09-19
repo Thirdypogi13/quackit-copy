@@ -225,3 +225,8 @@ li {
 ul a {
     text-decoration: none;
 }
+
+.center {
+    display: flex;
+    justify-content: center;
+}
