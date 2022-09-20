@@ -185,10 +185,6 @@ td {
     padding: 1em;
 }
 
- article {
-    border-left: 1px solid gray;
-    overflow: hidden; 
-}
 
 li {
     list-style: none;
