@@ -51,3 +51,7 @@ nav {
     background-image: url(./picture/next.jpg);
 }
 
+.nav-link:hover {
+    background: #13035c;
+    color: white;
+}
