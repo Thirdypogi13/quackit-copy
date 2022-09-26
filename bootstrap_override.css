@@ -55,3 +55,7 @@ nav {
     background: #13035c;
     color: white;
 }
+
+.nav-link:active {
+    background: rgb(177, 9, 192);
+}
