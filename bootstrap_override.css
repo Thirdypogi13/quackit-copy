@@ -59,3 +59,10 @@ nav {
 .nav-link:active {
     background: rgb(177, 9, 192);
 }
+
+.longword {
+    font-family:cursive;
+    font-size: 20px;
+    background: #dc87ff;;
+    padding: 25px;
+}
