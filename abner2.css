@@ -266,16 +266,3 @@ ul a {
     height: 60vh;  
 }
 
-.hide {
-    position: absolute;
-    width: 100%;
-    box-shadow: 0 18px 36px rgba(244, 234, 234, 0.3), 0 14px 11px rgb(0 0 0 / 22%);
-    height: 0px;
-    transition: height 1s;
-    overflow: hidden;
-}
-
-.dd {
-    position: relative;
-    display: inline-block;
-}
