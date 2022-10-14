@@ -70,3 +70,7 @@ nav {
     background: #dc87ff;;
     padding: 25px;
 }
+
+.p-3:hover {
+    color: rgb(239, 14, 183);
+}
